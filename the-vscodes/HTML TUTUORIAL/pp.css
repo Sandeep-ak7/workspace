@@ -1,0 +1,408 @@
+body {
+    background-color:rgb(10, 10, 45);
+    color: white;
+    font-family: 'Pathway Extreme', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+main{
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: black;
+}
+
+.left {
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.5s,font-size 1.5s;
+}
+
+a:hover {
+    font-size: 20px;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+
+#but1{
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:#00BFFF;
+    transition: font-size 0.5s,background-color 0.5s;
+    transition-timing-function: ease;
+}
+#but1:hover{
+    background-color: #fff;
+    font-size: 22px;
+}
+
+#first {
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px;
+    height: 100vh;
+    padding: 20px 20px;
+    flex-direction: row;
+
+}
+
+.leftsection {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    align-self: center;
+    
+}
+
+.rightsection img {
+    width: 70%;
+    margin:20px 50px 20px 100px;
+}
+
+.name {
+    color:rgb(159, 58, 254);
+}
+
+#element {
+    color: rgb(159, 58, 254);
+}
+
+#second {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    margin-left:50px;
+    display: flex;
+    
+    
+}
+.headofabout
+{
+    font-size: 52px;
+}
+#me
+{
+    color: rgb(159, 58, 254);
+}
+.about{
+    font-size: 1rem;
+}
+
+#but2
+{
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:#00BFFF;
+    margin-top: 55px;
+    transition: font-size 0.5s,background-color 0.5s;
+    transition-timing-function: ease;
+}
+#but2:hover{
+    background-color: #fff;
+    font-size: 22px;
+}
+.right2
+{
+    margin-left: 20%;
+}
+i
+{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: font-size 1.5s;
+
+}
+i:hover{
+font-size: 50px;
+text-decoration: underline;
+text-decoration-color:rgb(117, 117, 249);
+}
+#third
+{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    margin-top: 45px;
+    margin-left: 40px;
+    gap:50%;
+}
+.skill-section{
+  padding-top: 75px;
+}
+.skills{
+font-size: 45px;
+font-weight:700;
+margin-top: 30px;
+}
+
+
+  .progress-bar
+  {
+    width: 40%;
+    background-color: #ccc;
+    height: 18px;
+    border-radius: 11px;
+    font-weight: 600;
+    color: #000;
+   text-align: center;
+   
+  }
+  .progress1
+  {
+    
+    background-color: #00BFFF;
+    border-radius: 11px;
+    height: 18px;
+    animation-name: width1;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  
+   
+  }
+  @keyframes width1{
+    from{width: 0%;}
+    to{width: 80%;}
+  }
+ 
+  .progress2
+  {
+    
+    background-color: #00BFFF;
+    border-radius: 11px;
+    height: 18px;
+    animation-name: width2;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+   
+  }
+  @keyframes width2{
+    from{width: 0%;}
+    to{width: 70%;}
+  }
+  .progress3
+  {
+    
+    background-color: #00BFFF;
+    border-radius: 11px;
+    height: 18px;
+    animation-name: width3;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+   
+  }
+  @keyframes width3{
+    from{width: 0%;}
+    to{width: 30%;}
+  }
+  .progress4
+  {
+    
+    background-color: #00BFFF;
+    border-radius: 11px;
+    height: 18px;
+    animation-name: width4;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+   
+  }
+  @keyframes width4{
+    from{width: 0%;}
+    to{width: 60%;}
+  }
+
+
+  
+  .hardskills1
+  {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+   
+  }
+  
+  
+
+  .hardskills2
+  {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+  }
+
+  .hardskills3
+  {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+  }
+
+  .hardskills4
+  {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 20px;
+  }
+#fourth
+{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+
+}
+.projects-section
+{
+  padding-top: 75px;
+}
+
+.box
+{
+    height: 388px;
+    width: 450px;
+    border: 7px solid #00BFFF;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+.image{
+    height:378px;
+    width: 440px;
+    align-items: center;
+    justify-content: center;
+    border: 10px;
+    padding: 15px 15px;
+    transition: height 1s,width 1s;
+   
+}
+  .image:hover{
+height: 450px;
+width: 500px;
+  }
+h1.projects
+{
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 40px;
+    
+}
+h4{
+    font-size: 30px;
+    font-weight: 600;
+    color:  white;
+}
+#five{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+   margin-top: 2%;
+    margin-left: 27%;
+  }
+  .contact{
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-left: 12%;
+    
+  }
+  #cont{
+    color: rgb(159, 58, 254);
+  }
+  #name input[type="text"]{
+    height:40px;
+    width: 300px;
+    font-size: 18px;
+   font-weight: 800;
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 10px;
+    border-radius: 9px;
+    text-align: center;
+  }
+
+ 
+  #num input[type="text"]{
+    height:40px;
+    width: 300px;
+    font-size: 18px;
+   font-weight: 800;
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 10px;
+    border-radius: 9px;
+    text-align: center;
+  }
+  textarea{
+    margin-left: 50px;
+    font-size: 18px;
+   font-weight: 800;
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 10px;
+    border-radius: 9px;
+    text-align: center;
+   
+  }
+  #but3
+{
+    padding: 10px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    background-color:#00BFFF;
+    margin-top: 55px;
+    transition: font-size 0.5s,background-color 0.5s;
+    transition-timing-function: ease;
+    margin-left: 15%;   
+    margin-bottom: 30%;
+   
+}
+
+#but3:hover{
+    background-color: #fff;
+    font-size: 22px;
+}

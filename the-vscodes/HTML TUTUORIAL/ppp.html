@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pathway+Extreme:wght@900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Arushi's Portfolio</div>
+            <div class="right">
+              <ul>
+                <li><a href="#first">Home</a></li>
+                <li><a href="#second">About</a></li>
+                <li><a href="#third">Skills</a></li>
+                <li><a href="#fourth">Projects</a></li>
+                <li><a href="#five">Contacts</a></li>
+                
+              </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--SECTION 1-->
+        <section id="first">
+            <div class="leftsection">
+                <p>Hi, I'm <span class="name">Arushi Tiwari</span><br>and i am a Passionate<div> <span id="element"></span></div></p>
+              <a href="./Assets/CV_ARUSHI TIWARI.docx">  <button id="but1"> Resume</button></a>
+            </div>
+            <div class="rightsection">
+                <img src="./Assets/portfolio img.png" alt="">
+            </div>
+        </section>
+
+
+        <!--SECTION 2-->
+        <section id="second">
+
+          <div> 
+            <h2 class="headofabout">ABOUT <span id="me">ME</span></h2>
+   <p class="about">I am a talented web develper and web designer with a passion for creating visually<br> stunning and functinal websites
+with a strong command of HTML and CSS <br>as well as a soild foundation in Javascript.
+My expertise in crafting user-friendly <br> interfaces and attention to details ensures
+ an exceptional user experience <br>
+In addition to  web development  expertise,  I'm a accomplished athlete <br> With a passion for sports like badminton and athletics, which demonstrate discipline,<br> determination, and a competitive spirit
+   </p>
+
+<button id="but2">Read More</button></div>
+<div class="right2">
+   <a href=""> <i class="fa-brands fa-instagram"></i></a>
+   <a href="http://www.linkedin.com/in/arushi-tiwari-022b27255"> <i class="fa-brands fa-linkedin"></i></a>
+    <a href="https://github.com/Arushitiw"><i class="fa-brands fa-github"></i></a>    
+    <a href=""><i class="fa-brands fa-twitter"></i></a></div>
+</div>
+        </section>
+
+        <!--SECTION 3-->
+        <section id="third" class="skill-section">
+<h1 class="skills">SKILL SETS</h1>
+    
+        <div class="left3">
+            <div class="hardskills1">HTML
+                <div class="progress-bar">
+<div class="progress1" style="width:80%; ">80%</div></div>
+</div>
+        
+        <div class="hardskills2">CSS
+            <div class="progress-bar">
+<div class="progress2" style="width: 70%; ;">70%</div></div>
+</div>
+    
+    <div class="hardskills3">JAVASCRIPT
+        <div class="progress-bar">
+<div class="progress3" style="width: 30%;">30%</div></div>
+</div>
+
+<div class="hardskills4">VIDEO EDITING
+    <div class="progress-bar">
+<div class="progress4" style="width: 60%;">60%</div></div>
+</div>
+</div>
+
+
+     </section>
+
+     <!--SECTION 4-->
+     <h1 class="projects" >PROJECTS</h1>
+     <section id="fourth" class="project-section">
+       
+      <div class="box"><img class="image" src="https://www.satisfieduser.com/wp-content/uploads/2015/10/landing_page_design.jpg" alt="">
+    <h4>Landing Pages</h4></div>
+        <div class="box"><img  class=" image" src="https://i.pinimg.com/originals/d9/76/f6/d976f6ac6a12e19ed1e6da9e005af46c.jpg" alt="">
+        <h4>Portfolio</h4></div>
+        <div class="box"><img class="image" src="https://www.psdgraphics.com/wp-content/uploads/2015/02/video-business.jpg" alt="">
+        <h4>Edited Videos</h4></div>
+    </section>
+
+    <section id="five">
+<h1 class="contact">Contact <span id="cont">Me!</span></h1>
+<div id="name">
+    <input type="text" placeholder="Name">
+    <input type="text" placeholder="E-mail">
+</div>
+
+<div id="num">
+    <input type="text" placeholder="Mobile Number">
+    <input type="text" placeholder="Subject">
+</div>
+<div id="mess">
+    <textarea  cols="50" rows="10" placeholder="Message"></textarea>
+</div>
+        <div ><button id="but3">Submit</button></div>
+    </secttion>
+    </main>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Video Editor','Web designer'],
+          typeSpeed: 50,
+        });
+       
+
+       
+           
+      </script>
+</body>
+</html>
